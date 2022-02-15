@@ -38,14 +38,14 @@ public class Number{
         // Create an ArrayList of Type Number, my ArrayList is called squirrels
       private ArrayList<Number> squirrels = new ArrayList<>();
         
-        for(i = 0; i < 10; i++){
+        for(int i = 0; i < 10; i++){
 
         // Initialize 10 squirrels of class type Number
         Number sqrl = new Number();
 
         // Insert Number instance into ArrayList Squirrel in least to greatest order by random number, mine required nested loops
           for(int sqrls : squirrels){
-            if(sqrl.sqirrelCount() < sqrls.squirrelCount(){
+            if(sqrl.sqirrelCount() < sqrls.squirrelCount()){
               squirrels.add(sqrl);
             }
 
