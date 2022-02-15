@@ -32,23 +32,26 @@ public class Number{
       return Index;
     }
 
+}
     // Write a tester method
     public static void main(String[] args) {
 
         // Create an ArrayList of Type Number, my ArrayList is called squirrels
       private ArrayList<Number> squirrels = new ArrayList<>();
         
-        for(int i = 0; i < 10; i++){
-
         // Initialize 10 squirrels of class type Number
-        Number sqrl = new Number();
+        for(int i = 0; i < 10; i++){
+          Number sqrl = new Number();
 
         // Insert Number instance into ArrayList Squirrel in least to greatest order by random number, mine required nested loops
           for(int sqrls : squirrels){
             if(sqrl.sqirrelCount() < sqrls.squirrelCount()){
               squirrels.add(sqrl);
             }
+          }
 
+          //main for 
+        }
 
         // Print a formatted message with number of Squirrels and Index by which they were created, use enhanced for loop
 
@@ -58,6 +61,6 @@ public class Number{
         
     }
 
-}
+//main/args
   }
 }
